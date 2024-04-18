@@ -1,0 +1,32 @@
+@media screen and (max-width:500px) {
+    .title{
+        font-size: 42px ;
+        line-height: 48px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .buton{
+        position: relative;
+        text-align: center;
+    }
+    .input-container {
+        position: relative;
+      }
+    
+      
+      .input-container::before {
+        content: "";
+        position: absolute;
+        top: -5px;
+        left: -5px; 
+        width: 100%;
+        height: 150%;
+        background-image: linear-gradient(135deg, #4486ffae, #44b1ff46, #ff44ec6a, #44A5FF, #F2FF5E);
+        z-index: -1;
+        filter: blur(20px);
+      }
+      
+      .number-text{
+        font-size: 32px;
+      }
+}
